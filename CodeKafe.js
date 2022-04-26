@@ -1,7 +1,8 @@
 
-let daynight = document.querySelector('.daynight')
-let body = document.querySelector('body')
+let daynight = document.querySelector('.daynight');
+let body = document.querySelector('body');
 
 daynight.onclick = function(){
-body.classList.toggle('dark')
+    daynight.classList.toggle('active');
+    body.classList.toggle('dark');
 }
