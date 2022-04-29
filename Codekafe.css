@@ -240,6 +240,7 @@ footer .icons{
     position: absolute;
     display: flex;
     margin-left: 1100px;
+    cursor:pointer;
 }
 
 /* Footer Contact us Properties */
