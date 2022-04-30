@@ -230,11 +230,19 @@ footer {
     display: flex;
     border-top: 2px solid whitesmoke;
     width: 100%;
-    height: 140px;
+    height: 190px;
     background-color: rgba(2, 204, 240, 0.226);
+    position: relative;
 
 }
-
+.feedback{
+    height:23px;
+    padding: 0;
+    margin: 0px;
+    position: absolute;   
+    top: 155px;
+    left: 90%;
+}
 /* Footer social media icons adjustment */
 footer .icons{
     position: absolute;
@@ -245,13 +253,13 @@ footer .icons{
 
 /* Footer Contact us Properties */
 footer h2{
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    margin-left: 1055px;
+    /* justify-content: right; */
+    /* align-items: center; */
+    padding-left: 1055px;
     font-size: 35px;
     font-family: 'Roboto Slab';
     color: white ;
+    z-index: 50;
 }
 
 /* Facebook Logo */
