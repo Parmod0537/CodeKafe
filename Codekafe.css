@@ -108,6 +108,8 @@ a{
 nav ul{
     padding-left: 500px;
     display: flex;
+    position: relative;
+    left: 120px;
 }
 
 /* Lists bullet and other properties disabled */
@@ -553,7 +555,8 @@ h3{
     font-size: 20px;
     margin: 20px;
     cursor: pointer;
-    
+    position: absolute;
+    left:94%;   
 }
 
 .toggle ion-icon{
