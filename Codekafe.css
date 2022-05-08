@@ -71,17 +71,19 @@ a{
 
 .Images{
     width: 100%;
+    position: absolute;
     height: 100%;
-    
+    top: 70px;
+    left: 400px;
 
 }
 .Images img{
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
     left: 400px;
     display: inline;
     position: absolute;
-    
+    border-radius: 10px;
 }
 
 
